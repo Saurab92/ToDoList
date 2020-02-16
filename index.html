@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    ImpactQA
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="js/app.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <p class="h1">Todo List</p>
+  </div>
+  <div class="row">
+    <form id="form" class="form-inline">
+      <input type="text" class="form-control" id="todo" name="todo" required>
+      <button type="submit" name="Add" id="add" value="add" class="btn">Add Product</button>
+    </form>
+  </div>
+  <div class="row">
+
+    <table class="table table-striped" >
+      <thead>
+      <tr>
+        <th>Id</th>
+        <th>Item</th>
+        <th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</body>
+</html>
